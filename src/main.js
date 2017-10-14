@@ -4,6 +4,6 @@ import vuePayKeyboard from './lib/index.js'
 // import vuePayKeyboard from './lib/indexvue-pay-keyboard'
 Vue.use(vuePayKeyboard)
 new Vue({
-  el: '#app',
-  render: h => h(App)
+    el: '#app',
+    render: h => h(App)
 })
